@@ -37,10 +37,10 @@ class MainActivity : AppCompatActivity(),CounterView{
     }
 
     override fun showToast() {
-        Toast.makeText(this, "ха лох!", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "поздравляем", Toast.LENGTH_SHORT).show()
     }
         override fun changeColor() {
-            binding.counterTv.setTextColor(Color.BLUE)
+            binding.counterTv.setTextColor(Color.GREEN)
 
         }
     }
